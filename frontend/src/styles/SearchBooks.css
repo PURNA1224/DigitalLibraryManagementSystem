@@ -1,0 +1,73 @@
+.search-books-container {
+  padding: 40px;
+  border-radius: 10px;
+  margin: 50px auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+button {
+  width: 85px;
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.books-list {
+  list-style: none;
+  padding: 0;
+}
+
+.books-list li {
+  background: white;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 5px 0;
+  border-left: 5px solid #007bff;
+}
+
+/* Radio Button Selection Styles */
+.search-options {
+  margin-bottom: 15px;
+}
+
+.search-options label input {
+  background: #0e68c2;
+  display: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  color: black;
+  font-weight: bold;
+}
+
+/* Active (Selected) Effect */
+.search-options input[type="radio"]:checked + span {
+  background: #003f7f;
+  padding: 10px 15px;
+  /* border: 2px solid black; */
+  /* padding: 10px 15px; */
+  border-radius: 8px;
+}
